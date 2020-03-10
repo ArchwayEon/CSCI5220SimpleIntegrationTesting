@@ -4,7 +4,7 @@ namespace MotorVehicleLib
 {
    public class Random100 : IRandom
    {
-      private Random _random = new Random();
+      private readonly Random _random = new Random();
 
       public int GetNumber()
       {
