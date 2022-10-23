@@ -1,8 +1,7 @@
-﻿namespace MotorVehicleLib
+﻿namespace MotorVehicleLib;
+
+public interface IEngine
 {
-   public interface IEngine
-   {
-      void Fix();
-      bool HasProblem();
-   }
+    void Fix();
+    bool HasProblem();
 }

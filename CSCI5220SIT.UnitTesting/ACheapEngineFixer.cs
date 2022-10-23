@@ -5,7 +5,7 @@ using NUnit.Framework;
 namespace CSCI5220SIT.UnitTesting
 {
    [Category("Unit Tests")]
-   [Category("A CheapEngineFixture")]
+   [Category("A CheapEngineFixer")]
    [TestFixture]
    public class ACheapEngineFixer
    {

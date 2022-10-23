@@ -1,7 +1,6 @@
-﻿namespace MotorVehicleLib
+﻿namespace MotorVehicleLib;
+
+public interface IRandom
 {
-   public interface IRandom
-   {
-      int GetNumber();
-   }
+    int GetNumber();
 }
