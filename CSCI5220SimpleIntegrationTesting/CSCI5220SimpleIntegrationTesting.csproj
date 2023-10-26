@@ -8,4 +8,8 @@
     <None Remove="EngineFixer.asta.lock" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NSubstitute" Version="5.1.0" />
+  </ItemGroup>
+
 </Project>
